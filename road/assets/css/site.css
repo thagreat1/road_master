@@ -1,1 +1,44 @@
-ECHO is on.
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    display: block;
+    font-family: 'Courier New', Courier, monospace;
+    line-height: 1.15;
+}
+img {
+    width: 100%;
+    height: auto;
+}
+.header-container {
+    display: block;
+    padding: 10px;
+    border: 1px solid gray;
+    background: black;
+    height: 40px;
+}
+.site-nav-item {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.main-container {
+    margin: 10px;
+}
+
+.gallery-grid {
+    display: flex;
+    align-items: center;
+}
+.gallery-grid-item {
+    border: 2px solid white;
+    border-radius: 5px;
+}
+.grid-img {
+    border-radius: 15px;
+
+}
